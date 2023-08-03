@@ -3722,7 +3722,7 @@ abstract contract ERC20Votes is ERC20Permit, IERC5805 {
 
 // File contracts/BotFi.sol
 
-// contracts/GLDToken.sol
+// contracts/BotFi.sol
 // Original license: SPDX_License_Identifier: MIT
 pragma solidity ^0.8.0;
 
