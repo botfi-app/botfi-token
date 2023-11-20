@@ -1,7 +1,7 @@
 const {
   etherscanApi,
   accounts
-} = require("./secrets");
+} = require("./.secrets");
 
 require("@nomicfoundation/hardhat-toolbox");
 
@@ -9,13 +9,24 @@ require("hardhat-gas-reporter");
 
 require("@nomicfoundation/hardhat-verify");
 
+
+require("@nomiclabs/hardhat-ethers");
+
+require('hardhat-contract-sizer', { runOnCompile: true });
+
+require('hardhat-deploy');
+
+require('hardhat-abi-exporter',{ path: 'data/abi', clear: true });
+
+
+
 /** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
 
   networks: {
 
-    bsc_testnet: {
-      url: `https://data-seed-prebsc-2-s1.binance.org:8545/`,
+    eth_mainnet: {
+      url: `https://ethereum.publicnode.com`,
       chainId: 1,
       accounts
     }
