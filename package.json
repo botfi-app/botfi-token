@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "flatten": "npx hardhat flatten > ./BotFi_flatten.sol",
+    "flatten": "npx hardhat flatten > ./BotFiToken.sol",
     "c": "npx hardhat compile",
     "deploy_eth_mainnet": "npx hardhat deploy --network eth_mainnet"
   },

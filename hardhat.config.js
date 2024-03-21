@@ -1,7 +1,8 @@
-const {
+/*const {
   etherscanApi,
   accounts
 } = require("./.secrets");
+*/
 
 require("@nomicfoundation/hardhat-toolbox");
 
@@ -23,6 +24,7 @@ require('hardhat-abi-exporter',{ path: 'data/abi', clear: true });
 /** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
 
+  /*
   networks: {
 
     eth_mainnet: {
@@ -36,7 +38,7 @@ module.exports = {
     // Your API key for Etherscan
     // Obtain one at https://etherscan.io/
     apiKey: etherscanApi
-  },
+  },*/
 
   sourcify: {
     // Disabled by default
