@@ -14,9 +14,9 @@ contract BotFiToken is
     ERC20Burnable
 {
 
-    string  constant _name        = "BotFi Token";
-    string  constant _symbol      = "BOTFI";
-    uint256 public   _totalSupply = 1_000_000_000e18;
+    string  constant  _name        = "BotFi Token";
+    string  constant  _symbol      = "BOTFI";
+    uint256 constant  _totalSupply = 1_000_000_000e18;
 
     constructor() ERC20Permit(_name) ERC20(_name, _symbol) {
         _mint(_msgSender(), _totalSupply);
