@@ -1898,7 +1898,7 @@ abstract contract ERC20Permit is ERC20, IERC20Permit, EIP712 {
 
 // File contracts/BotFiToken.sol
 
-// contracts/BotFi.sol
+// contracts/BotFiToken.sol
 // Original license: SPDX_License_Identifier: MIT
 pragma solidity ^0.8.0;
 
